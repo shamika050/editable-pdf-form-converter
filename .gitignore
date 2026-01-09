@@ -1,0 +1,129 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.json
+
+# AWS
+.aws/
+aws-credentials.json
+
+# Output & Temporary Files
+outputs/
+*.pdf
+!examples/*.pdf
+*.png
+!examples/*.png
+*.jpg
+*.jpeg
+
+# Conversion Intermediate Files
+.conversion_*/
+*_textract.pdf
+*_fixed.pdf
+*_fillable.pdf
+*_validated.json
+*_sized.json
+*_annotated.png
+
+# JSON Output Files (except examples)
+output.json
+textract_fields.json
+validated_fields.json
+sized_fields.json
+!examples/*.json
+
+# Logs
+*.log
+logs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+
+# Thumbnails
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Windows
+$RECYCLE.BIN/
+
+# Python Distribution / Packaging
+*.whl
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# Project Specific
+# Keep example inputs but ignore user uploads
+inputs/
+!inputs/.gitkeep
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Diagnostic outputs
+diagnose_*.txt
